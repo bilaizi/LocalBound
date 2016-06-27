@@ -14,7 +14,7 @@ public class BoundService extends Service {
     public BoundService() {}
     @Override
     public IBinder onBind(Intent intent) {
-        //TODO:	Return	the	communication	channel	to	the	service.
+        //TODO:	Return the communication channel to	the	service.
         return myBinder;
     }
     public String getCurrentTime() {
